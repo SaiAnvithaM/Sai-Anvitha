@@ -1,0 +1,118 @@
+        body{
+            position: relative;
+            background-image:linear-gradient(90deg,#000428,#004e92);
+/*            background-image:linear-gradient(90deg,#d38312,#a83279);*/
+            background-repeat: no-repeat;
+            text-align: center;
+
+        }
+        
+
+        /*  common class for both the containers      */
+        .choice{
+            background-color: #e8e8e8;
+            position:relative;
+            height:550px;
+            width:45%;
+            border:3px solid darkblue;
+            border-radius:10%;
+            display:inline-block;
+            vertical-align:top;
+        }
+
+
+/*    JS img     */
+        .p2 img{
+            height:100px;
+            width:100px;
+            border:1px #641188 solid;
+            background-color: white;
+        }
+        .p2{
+            position:relative;
+            padding:6px;
+            margin:2% 25% 2% 25%;
+        }
+
+/*   Single name texts     */
+        .p1,.p3{
+background-image:linear-gradient(53deg,#F761A1,#8C1BAB);
+            color:white;
+            font-size:25px ;
+            color:white;
+            border-radius: 50%;
+           /* height:40px;
+            width:150px;*/
+            height:6%;
+            width:50%;
+            text-align: center;
+            padding:6px;
+            margin:auto;
+        }
+       
+/*    icon </>   */
+        .p4 i{
+            border:2px solid #1d4498;
+            padding:6px;
+            margin:1% 25% 1% 25%;
+            text-align: center;
+            font-size:40px;
+            color:#1d4498;
+            height:50px;
+            width:70px;
+        }
+
+/*Graydot text border*/
+      .p5{
+           border:1px solid black;
+         }
+
+/*      Dream big img   */
+        .p6 img{
+            height:80px;
+            width:100px;
+            background-size: cover;
+        }
+
+/*  Drag and Drop text  */
+        .text{
+            margin:10px;
+            color:white;
+            text-align: center;
+            font-size:25px;
+        }
+
+
+/*      includes button and text*/
+        div {
+            height:30px;
+            text-align:center;
+        }
+
+/*   headings of containers     */
+        h2{
+            margin:auto;
+            border-bottom: 3px solid black;
+            width:70%;
+            margin-bottom: 20px;
+            
+        }
+/*Reset Button*/
+        .btn button{
+            font-size: 20px;
+            background-color: #ffaf7b;
+            color:#3a1c71;
+        }
+
+
+/*Adding Responsiveness*/
+@media screen and (max-width:576px){
+    .choice{
+        width:70%;
+    }
+}
+@media screen and (min-width:992px){
+    .p1, .p3{
+         height:40px;
+            width:150px;
+    }

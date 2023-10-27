@@ -9,12 +9,11 @@
     font-family: sans-serif;
     font-size: 30px;
     height:29.7cm;
-    width:21cm;
+    width:100%;
 }
 /* Body Header */
 #body-header {
     height: 65vh;
-/*    opacity: 0.8;*/
     background-image: url(https://images.unsplash.com/photo-1493946947703-a0e68b050bee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwZGFya3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60);
     background-size: cover;
     background-position: center;

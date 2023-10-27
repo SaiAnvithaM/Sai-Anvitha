@@ -9,7 +9,6 @@
     font-family: sans-serif;
     font-size: 30px;
     height:29.7cm;
-    width:100%;
 }
 /* Body Header */
 #body-header {
